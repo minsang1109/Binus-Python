@@ -1,1 +1,1 @@
-http://blog.zulma.id/posts/Algorithms-and-programming-Python-1/
+[http://blog.zulma.id/posts/Algorithms-and-programming-Python-1/]

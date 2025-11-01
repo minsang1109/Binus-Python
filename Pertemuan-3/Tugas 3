@@ -1,0 +1,23 @@
+print('''
+Menu
+1. C to F
+2. C to K
+3. F to C
+4. F to K
+5. K to C
+6. K to F
+''')
+
+menu = int(input("masukkan nomor menu: "))
+if (menu == 1):
+    print("Fahrenheit")
+elif (menu == 2):
+    print("Kelvin")
+elif (menu == 3):
+    print("Celsius")
+elif (menu == 4):
+    print("Kelvin")
+elif (menu == 5):
+    print("Celsius")
+else:
+    print("Fahrenheit")

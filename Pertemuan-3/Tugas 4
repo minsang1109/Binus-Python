@@ -1,18 +1,19 @@
-a = int(input("a:"))
-b = int(input("b:"))
-c = int(input("c:"))
+import math
 
-if (a == b) and (b == c) and ( a == c ):
-    print("Equilateral")
+a = int(input("Panjang sisi A = "))
+b = int(input("Panjang sisi B = "))
+c = int(input("Panjang sisi C = "))
 
-elif ( a == b ) or ( b == c ) or ( a == c ):
-    print("Isosceles")
-
-elif ( a >= b + c ) or ( b >= c + a ) or ( c >= a + b ):
-    print("Not a Triangle")
-
-elif ( a ** 2 ) or ( b ** 2 ) or ( c ** 2 ):
-    print("Scalene")
-
+# Cek jenis segitiga
+if (a == b == c):
+    print("Ini merupakan segitiga sama sisi")
+elif (a + b <= c) or (a + c <= b) or (b + c <= a):
+    print("Ini bukan merupakan segitiga")
+elif (a == b) or (a == c) or (b == c):
+    print("Ini merupakan segitiga sama kaki")
+elif ((a == math.sqrt(b**2 + c**2)) or 
+      (b == math.sqrt(a**2 + c**2)) or 
+      (c == math.sqrt(a**2 + b**2))):
+    print("Ini merupakan segitiga siku-siku")
 else:
-    print("Right-angled")
+    print("Ini merupakan segitiga sembarang")

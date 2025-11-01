@@ -1,0 +1,22 @@
+umur = int(input("Umur:"))
+
+if (umur >= 71):
+    print("Eldery")
+elif ((umur >=51) and (umur <=70)):
+    print("Pre-eldely")
+elif ((umur >=31) and (umur <= 50)):
+    print("Adult")
+elif ((umur >=22) and (umur <30)):
+    print("Pre-adult")
+elif ((umur >=18) and (umur <=21)):
+    print("Young Adult")
+elif ((umur >=13) and (umur <=17)):
+    print("Teenger")
+elif ((umur >=6) and (umur <=12)):
+    print("Child")
+elif ((umur >=4) and (umur <=5)):
+    print("Preshooler")
+elif((umur >=2) and (umur <=3)):
+    print("Toddler")
+else:
+    print("Baby")

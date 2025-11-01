@@ -1,0 +1,10 @@
+a = int(input("a:"))
+b = int(input("b:"))
+c = int(input("c:"))
+
+if ((a > 0) or (b > 0) or (c > 0)):
+    print("it has disinct roots")
+elif ((a < 0) or (b < 0) or (c < 0)):
+    print("the quadratic equation")
+elif ((a == 0) or (b == 0) or (c == 0)):
+    print("the discriminant value")

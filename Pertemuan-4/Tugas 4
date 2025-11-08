@@ -1,0 +1,13 @@
+stop = "Y"
+while(stop == "Y"):
+    A = int(input("A:"))
+    B = int(input("B:"))
+    C = int(input("C:"))
+    
+    if (A == B == C):
+        print("It is an Equilateral Triangle")
+        
+    else: 
+        print("It is an Isosceles Triangle")
+        
+    stop = input("Do you want to repeat?")

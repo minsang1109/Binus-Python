@@ -1,11 +1,9 @@
-status = True
-i = 5
-value = int(input("Input Max Value:"))
-
-while(status):
-    if (i % 2 == 0):
-        print("The number 5 is odd")
-        continue
-    else:
-        print("Do you want to repeat? Y")
-        break
+stop = "Y"
+while(stop == "Y"):
+    value = int(input("Input:"))
+    if (value % 2 == 0):
+        print("The number is odd")
+        
+    else: 
+        print("The nimber is even")
+    stop = input("Do you want to repeat?")

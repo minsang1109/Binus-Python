@@ -1,0 +1,40 @@
+value = int(input("Input Max Value:"))
+
+for i in range(value,6,-1):
+    print(str(i)*7)
+    
+for i in range(value-1,5,-1):
+    print(str(i)*6)
+    
+for i in range(value-2,4,-1):
+    print(str(i)*5)
+    
+for i in range(value-3,3,-1):
+    print(str(i)*4)
+    
+for i in range(value-4,2,-1):
+    print(str(i)*3)
+
+for i in range(value-5,1,-1):
+    print(str(i)*2)
+    
+for i in range(value-6,0,-1):
+    print(str(i)*1)
+    
+for i in range(value-5,1,-1):
+    print(str(i)*2)
+    
+for i in range(value-4,2,-1):
+    print(str(i)*3)   
+    
+for i in range(value-3,3,-1):
+    print(str(i)*4)    
+    
+for i in range(value-2,4,-1):
+    print(str(i)*5)    
+    
+for i in range(value-1,5,-1):
+    print(str(i)*6)    
+    
+for i in range(value,6,-1):
+    print(str(i)*7)    

@@ -13,7 +13,11 @@ class student:
     def printStudent(self):
         print("Name:", self.name, "\nNilai:", self.nilai)
 
-student1 = student("Agus", 100)
+name = input("Masukan nama: ")
+nilai = input("Masukan nilai: ")
+
+
+student1 = student(name, nilai)
 
 student1.printStudent()
 student1.displayCount()
